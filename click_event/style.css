@@ -38,3 +38,7 @@ body {
 .ssss.invisible {
 	display: none;
 }
+
+button.selected {
+	background-color: blanchedalmond;
+}

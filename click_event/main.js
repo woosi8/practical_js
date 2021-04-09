@@ -22,4 +22,12 @@ btn.addEventListener("click", (event) => {
 			project.classList.add("invisible");
 		}
 	});
+
+	// 클릭 시 해당 엘리먼트 색상 변화 주기
+	const selectElem = document.querySelector("button.selected");
+	if (selectElem != null) {
+		selectElem.classList.remove("selected");
+	}
+	// const target =event.target.nodeName === "BUTTON" ? event.target : event.target.parentNode; 버튼에 자식이 있는경우 클릭 범위 오작동을 예방하기위해
+	event.target.classList.add("selected");
 });
