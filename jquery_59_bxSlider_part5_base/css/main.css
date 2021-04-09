@@ -1,0 +1,79 @@
+.slideWrap {
+	max-width: 960px;
+	width: 90%;
+	margin: 2em auto;
+	position: relative;
+}
+
+.multiple_slider li img {
+	width: 100%;
+	height: auto;
+}
+
+@keyframes moveUp {
+	from {
+		opacity: 0;
+		margin-top: 40px;
+	}
+	to {
+		opacity: 1;
+		margin-top: 0px;
+	}
+}
+
+/*  커스텀마이징---------------------------------------------------------------------- */
+
+.bx-wrapper {
+	/* max-width: 0 i !important; */
+	/* margin-left: 125px; */
+	margin: 0 auto;
+	/* 가운데 정렬하려고  margin 0 auto */
+}
+.bx-pager {
+	list-style: none;
+	position: absolute;
+	left: 50%;
+	bottom: -13%;
+	list-style: none;
+	padding: 0;
+	transform: translateX(-50%);
+}
+
+.bx-pager-item {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px;
+	overflow: hidden;
+	background: #ddd;
+	border-radius: 50%;
+	transition: 0.3s;
+	/* text-indent: -9999em; */
+}
+
+.bx-pager-item a.active {
+	background: red;
+	opacity: 1;
+	text-indent: -9999px;
+}
+
+.bx-pager-item a {
+	display: block;
+	text-align: center;
+	opacity: 0;
+}
+
+.bx-prev,
+.bx-next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 3em;
+}
+
+.bx-controls .bx-prev {
+	right: calc(100% + 40px);
+}
+.bx-controls .bx-next {
+	left: calc(100% + 40px);
+}
