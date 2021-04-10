@@ -16,7 +16,7 @@ btn.addEventListener("click", (event) => {
 		return;
 	}
 	objects.forEach((project) => {
-		if (filter === project.dataset.type) {
+		if (filter === "*" || filter === project.dataset.type) {
 			project.classList.remove("invisible");
 		} else {
 			project.classList.add("invisible");

@@ -10,7 +10,7 @@ body {
 	display: inline-block;
 	/* margin: 0 auto; */
 	text-align: center;
-	width: 2rem;
+	/* width: 2rem; */
 	height: 2rem;
 }
 
@@ -31,7 +31,8 @@ body {
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 0.25rem;
-	margin: 2rem auto;
+	margin: 1rem;
+	/* margin: 1rem auto; auto를 없애주면 순서대로 나온다. */
 	cursor: pointer;
 }
 
