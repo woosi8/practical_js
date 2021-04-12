@@ -1,0 +1,17 @@
+.rand {
+	position: relative;
+	font-family: Helvetica, sans-serif;
+	word-wrap: break;
+	width: 135px;
+	height: 30px;
+	/* background: steelblue; */
+	padding: 10px;
+	text-align: center;
+	z-index: -1;
+	opacity: 0.6;
+	color: red;
+}
+
+.rand.blink {
+	opacity: 0.3;
+}
