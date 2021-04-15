@@ -1,0 +1,45 @@
+body {
+	background: #d2d2d2;
+}
+
+#btn {
+	display: block;
+	text-align: center;
+}
+#btn button {
+	display: inline-block;
+	/* margin: 0 auto; */
+	text-align: center;
+	/* width: 2rem; */
+	height: 2rem;
+}
+
+#the-box {
+	width: 35rem;
+	height: 8rem;
+	display: flex;
+}
+.ssss {
+	width: 100px;
+	height: 100px;
+	line-height: 4;
+	background: #185901;
+
+	text-align: center;
+	font-size: 2rem;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0.25rem;
+	margin: 1rem;
+	/* margin: 1rem auto; auto를 없애주면 순서대로 나온다. */
+	cursor: pointer;
+}
+
+.ssss.invisible {
+	display: none;
+}
+
+button.selected {
+	background-color: blanchedalmond;
+}
